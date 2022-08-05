@@ -40,5 +40,6 @@ if __name__ == '__main__':
     printList(arr)
 
 # Python program for implementation of MergeSort
-
-# This code is contributed by harturalcantara
+# Time Complexity: O(n log(n)),  Sorting arrays on different machines. Merge Sort is a recursive algorithm and time complexity can be expressed as following recurrence relation. T(n) = 2T(n/2) + θ(n)
+# Auxiliary Space: O(n)
+# Space Complexity: In merge sort all elements are copied into an auxiliary array, so N auxiliary space is required for merge sort.
